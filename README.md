@@ -141,27 +141,45 @@ Interactive **Streamlit dashboard** with:
 ## 📂 Project Structure
 
 ```
-vendor_invoice_intelligence/
-├── data/                 
-├── notebooks/            
-├── freight_cost_prediction/
+Invoice-intelligence-sys/
+├── data/
+│   └── (raw data files)
+│
+├── notebooks/
+│   └── Predicting-Freight-cost.ipynb
+│
+├── freight-cost-prediction/
 │   ├── data_preprocessing.py
 │   ├── model_evaluation.py
 │   ├── train.py
-│   └── inference_predict_freight.py
-├── invoice_flagging/
-│   ├── data_preprocessing.py
-│   ├── model_evaluation.py
-│   ├── train.py
-│   └── inference_predict_invoice_flag.py
-├── inference/            
-├── models/               
-├── images/               
-├── app.py                
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+│   ├── check_db.py
+│   ├── models/
+│   │   └── Predicting-Freight-cost.pkl
+│   ├── __pycache__/
+│   └── .ipynb_checkpoints/
+│
+├── Invoice_flagging/
+│   ├── data_preprocessing_IF.py
+│   ├── model_evaluation_IF.py
+│   ├── train_IF.py
+│   ├── models/
+│   │   ├── predicing_flag_invoice.pkl
+│   │   └── scalar.pkl
+│   ├── __pycache__/
+│   └── .ipynb_checkpoints/
+│
+├── inference/
+│   ├── Predict_freight.py
+│   ├── Predict_invoice_flag.py
+│   └── .ipynb_checkpoints/
+│
+├── app.py (Streamlit web application)
+│
+├── README.md (project documentation)
+│
+├── .gitignore (git exclusions)
+│
+└── .git/ (version control)
 
 ---
 
