@@ -224,7 +224,7 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-*Add screenshots from **`/images`** folder here*
+<img src="C:\Users\VBdri\OneDrive\Pictures\Screenshots\Screenshot 2026-04-03 023138.png" class='fit-picture'></img>
 
 ---
 
@@ -241,11 +241,9 @@ streamlit run app.py
 
 ## 👤 Author
 
-**Your Name Here**
-
-* GitHub: [Your GitHub Link]
-* LinkedIn: [Your LinkedIn Link]
+* GitHub: [https://github.com/medrishti]
+* LinkedIn: [https://www.linkedin.com/in/drishti-kumari-ba7188293/]
 
 ---
 
-## ⭐ If you found this useful, consider giving it a star!
+
